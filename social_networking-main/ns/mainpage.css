@@ -1,0 +1,355 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+.one{
+	width:100%;
+	height:50px;
+	background: linear-gradient(27deg, rgba(74,2,2,0.9542191876750701) 0%, rgba(9,29,121,0.7917542016806722) 68%, rgba(0,255,156,0.9906337535014006) 100%);
+		position: fixed;
+
+}
+.form{
+	display: inline-block;
+	width: 64px;	
+	position: absolute;
+	margin-left: 383px;
+	margin-top: 7px;
+}
+.text{  
+    width: 310px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;   
+    padding: 5px 8px 5px 40px;
+    display: inline-block;
+    background-image: url(images/search.png);
+    background-position: 5px 6px;
+    background-repeat: no-repeat;
+    background-size: 10px;
+}
+.image{
+	
+	width: 40px;
+	height: 30px;
+	display: inline-block;	
+	border-radius: 4px;
+}
+
+.home{	
+	width: 40px;
+	height: 30px;
+	margin-left: 426px;
+	margin-top: 5px;
+	display: inline-block;
+	border-radius: 4px;	
+	position: absolute;
+}
+.home div{
+ bottom: 0;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 5px;
+ font-family: sans-serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear; 
+ transition: visibility 0s, opacity 0.5s linear;
+ margin-left: 426px;
+
+}
+
+/* Hover on Parent Container */
+.home:hover{
+ cursor: pointer;
+}
+
+.home:hover div{
+ width: 40px;
+ visibility: visible;
+ opacity: 0.7; 
+}
+
+.profile{
+   
+    width: 40px;
+    height: 32px;
+    margin-left: 465px;
+    margin-top: 5px;
+    display: inline-block;
+    position: absolute;
+    border-radius: 4px;   
+}
+.profile div{
+ bottom: 0;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 5px;
+ font-family: sans-serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear; 
+ transition: visibility 0s, opacity 0.5s linear;
+ margin-left: 465px;
+}
+
+/* Hover on Parent Container */
+.profile:hover{
+ cursor: pointer;
+}
+
+.profile:hover div{
+ width: 43px;
+ visibility: visible;
+ opacity: 0.7; 
+
+}
+.freq{
+	
+	width: 40px;
+	height: 32px;
+	margin-left: 544px;	
+	margin-top: 5px;
+	border-radius: 4px;
+	display: inline-block;
+	position: absolute; 
+   
+}
+.freq div{
+ bottom: 0;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 5px;
+ font-family: sans-serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear; 
+ transition: visibility 0s, opacity 0.5s linear;
+ margin-left: 544px;
+}
+
+/* Hover on Parent Container */
+.setting:hover{
+ cursor: pointer;
+}
+
+.freq:hover div{
+ width: 59px;
+ visibility: visible;
+ opacity: 0.7; 
+
+}
+.chat{
+	
+	width: 40px;
+	height: 32px;
+	margin-left: 504px;	
+	margin-top: 5px;
+	border-radius: 4px;
+	display: inline-block;
+	position: absolute; 
+   
+}
+.chat div{
+
+ bottom: 0;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 5px;
+ font-family: sans-serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear; 
+ transition: visibility 0s, opacity 0.5s linear;
+ margin-left: 504px;
+}
+
+/* Hover on Parent Container */
+.chat:hover{
+ cursor: pointer;
+}
+
+.chat:hover div{
+ width: 47px;
+ visibility: visible;
+ opacity: 0.7; 
+}
+
+.setting{
+	
+	width: 40px;
+	height: 32px;
+	margin-left: 580px;	
+	margin-top: 5px;
+	border-radius: 4px;
+	display: inline-block;
+	position: absolute; 
+   
+}
+.setting div{
+
+ bottom: 0;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 5px;
+ font-family: sans-serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear; 
+ transition: visibility 0s, opacity 0.5s linear;
+ margin-left: 580px;
+}
+
+/* Hover on Parent Container */
+
+.setting:hover div{
+ width: 47px;
+ visibility: visible;
+ opacity: 0.7; 
+
+}
+.vl {
+  border-left: 1px solid black;
+  height: 50px;
+  margin-left: 1377px;
+}
+
+.logout{
+    display: inline-block;
+    border: none;
+    height: 40px;
+    margin-right: 70px;
+    width: 60px;
+    margin-top: 2.5px;
+    outline: none;
+    cursor: pointer;
+    color: black;
+    background-color: inherit;
+    float: right;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 15px;
+}
+.logout1{
+	text-decoration: none;
+	color: black;
+}
+.logout1:hover{
+	
+	cursor: pointer;
+	background-color: inherit;
+	color:#9933ff;
+}
+/*.two{
+	height: 560px;
+	width: 300px;	
+	border: 2px solid purple;
+	margin-top: 30px;
+	display: inline-block;
+	position: fixed;
+	top: 70px;
+}*/
+#two1{
+	height: 120px;
+	width: 100%;
+	background-image: linear-gradient(to right,#240000,#79092a);
+
+}
+#two2 img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: relative;
+	margin-left: 113px;
+	border-color: white;
+	top: -50px;
+}
+#two2{
+	min-width: 327px;
+    border: 2px solid;
+    border-color: white;
+    background-color: white;
+}
+
+#box1{
+	background-color: white;
+	height: 10px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: -25px;
+    font-size: 20px;
+    position: relative;
+    bottom: 35px;
+}
+#hr1{
+	border-top: 0.5px solid #a6a6a6;
+
+	
+}
+.post_upborder{
+	width: 100%;
+	height: 7px;
+	background: linear-gradient(27deg, rgba(74,2,2,0.9542191876750701) 0%, rgba(9,29,121,0.8757878151260504) 3%, rgba(6,94,135,0.8477766106442577) 75%, rgba(3,192,146,1) 100%, rgba(0,255,156,0.12788865546218486) 100%);
+	}
+textarea{
+	width: 89%;
+	height: 300px;
+	border: none;
+	font-family: tahoma;
+	font-size: 14px;
+	margin-left: 10px;
+	height: 60px;
+	border-left: 1px solid #a6a6a6;
+	padding-left: 3px;
+	outline: none;
+	resize: none;
+}
+
+#user_img{
+	width: 50px; 
+	height: 50px; 
+	float: left;
+	margin-left: 5px;
+	border-radius: 50%;
+	border: 1px solid #a6a6a6;
+}
+#post_button{
+	float: right;
+	display: inline-block;
+	background-color: #00e6b8;
+	color: white;
+	border: none;
+	padding: 4px;
+	font-size: 14px;
+	border-radius: 2px;
+	width: 50px;
+	cursor: pointer;
+	outline: none;
+}
+#post_button:hover{
+	background-color: #00997a;
+	color: black;
+	cursor: pointer;
+}
+#post_bar{
+	margin-top: 30px;
+	background-color: white;
+	border: 1px solid #a6a6a6;
+	padding: 10px;
+}
+#post{
+	padding: 4px;
+	font-size: 13px;
+	display: flex;
+	margin-bottom: 20px;
+
+}
+
+

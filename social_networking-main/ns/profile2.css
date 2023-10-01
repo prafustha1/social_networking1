@@ -1,0 +1,125 @@
+#circle{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background-color: grey;
+	border-radius: 50%;
+	position: absolute;
+	top: 38%;
+	left: 40%;
+}
+
+#circle img
+{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background-color: grey;
+	border-radius: 50%;
+}
+.slide{
+	
+	width: 99.88%;
+	height: 525px;
+	border-radius: 2px;
+	border-color: blue;
+	background-color: #b3b3cc ;
+	position: absolute;
+	top: 7.5%;
+	border: 1px solid #a6a6a6;
+}
+.slide img{
+	
+	width: 99.88%;
+	height: 525px;
+	border-radius: 2px;
+	border-color: blue;
+	background-color: #b3b3cc ;
+	position: absolute;
+	border: 1px solid #a6a6a6;
+}
+
+#name
+{
+	background-color: white;
+	height: 10px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: -25px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 35px;
+    top: 76%;
+    left: 47%;
+
+}
+#one1{
+	height: 500px;
+	width:300px;
+	border: 1px solid #a6a6a6;
+	position: relative;
+	left: 4%;
+	top: 690px;
+}
+
+
+#follow{
+	max-width: 150px;
+	min-width: 60px;
+	height: 30px;
+	background-color: purple;
+	color: white;
+	font-family: sans-serif;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	padding: 4px;
+	display: inline-block;
+	outline: none;
+}
+#two22{
+	height: 100px;
+	width: 50%;
+	border: 0px solid #a6a6a6;
+	position: relative;
+	padding: 10px;
+
+	left: -5%;
+	top: 680px;
+	right:15%;
+	
+
+}
+#three3{
+	width: 48.4%;
+	margin-top: 20px;
+	background-color: white;
+	border: 1px solid #a6a6a6;
+	padding: 10px;
+	position: absolute;
+	right: 12.3%;
+	top: 810px;
+}
+
+#friends_img{
+	width: 75px;
+	float: left;
+	margin: 8px;
+}
+
+#friends_bar{
+	background-color: white;
+	min-height: 400px;
+	color: #aaa;
+	padding: 8px;
+}
+
+#friends{
+	clear: both;
+	font-size: 12px;
+	font-weight: bold;
+	color: #405d9b;
+}
+
+
+
